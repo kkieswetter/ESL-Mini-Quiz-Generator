@@ -18,6 +18,10 @@ function generateQuiz(event) {
     "You are an expert ESL teacher and love to create mini quizzes. Generate 10 ESL questions on the topic to test the student's grammar and vocabulary knowledge. Formatting rule: You must seperate every single question with a <br /> tag so they appear on a new line. For example: Question 1: ... <br/> Question 2: ... <br/>";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
+  let quizElement = document.querySelector("#quiz");
+  quizElement.classList.remove("hidden");
+  quizElement.innerHTML = `Generating an ESL quiz about ${instructionsInput.value}...`;
+
   axios.get(apiUrl).then(displayQuiz);
 }
 let quizFormElement = document.querySelector("#quiz-form");
