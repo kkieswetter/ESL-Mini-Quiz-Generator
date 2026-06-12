@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(230, 184, 215);
+  background-color: rgb(243, 221, 235);
 }
 .container {
   margin: 40px auto;
@@ -31,7 +31,7 @@ form {
 }
 .instructions {
   padding: 20px;
-  border: 1px solid rgb(230, 184, 215);
+  border: 1px solid rgb(243, 221, 235);
   width: 80%;
   font-size: 16px;
   border-radius: 20px;
@@ -40,7 +40,7 @@ form {
 
 .submit-button {
   margin-left: 10px;
-  background-color: rgb(230, 184, 215);
+  background-color: rgb(243, 221, 235);
   color: black;
   border: none;
   border-radius: 20px;
@@ -64,6 +64,7 @@ footer {
   margin-top: 30px;
   font-size: 14px;
   background-color: white;
+  border-radius: 5px;
 }
 
 a {
