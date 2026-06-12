@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>ESL Mini Quiz Generator</title>
   </head>
@@ -11,7 +12,7 @@
     <div class="container">
     <header><h1>ESL Mini Quiz Generator</h1></header>
     <main>
-      <form>
+      <form id="quiz-form">
 <input type="text" placeholder="Enter your ESL topic"
 autofocus 
 required
@@ -19,8 +20,8 @@ class="instructions"
 ></input>
 <input type="submit" class="submit-button"/>
 </form>
-<div class="quiz">
-  The quiz will go here
+<div class="quiz" id="quiz">
+  
 </div>
       
     </main>

@@ -37,8 +37,8 @@ form {
 
 .submit-button {
   margin-left: 10px;
-  background: rgb(230, 184, 215);
-  color: white;
+  color: rgb(230, 184, 215);
+  background-color: white;
   border: none;
   border-radius: 20px;
   padding: 20px;
